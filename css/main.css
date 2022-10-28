@@ -1,0 +1,528 @@
+/* Start Global */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* End Globa */
+
+/* Start Navbar */
+nav {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  z-index: 1;
+}
+
+nav .left {
+  width: 40%;
+  text-align: center;
+}
+
+nav .left h2 {
+  text-transform: uppercase;
+  color: #5e5053;
+}
+
+nav .right {
+  width: 60%;
+}
+
+nav .right ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav .right ul li {
+  display: flex;
+  align-items: center;
+}
+
+nav .right ul li:hover {
+  background-color: #e2c1c8;
+  cursor: pointer;
+}
+
+nav .right ul li a {
+  color: #5e5053;
+  padding: 23px 42px;
+}
+
+nav .right ul li a:hover {
+  color: #fff;
+}
+
+nav .right ul li .shopcart {
+  background-color: #e2c1c8;
+  color: #fff;
+}
+
+/* End Navbar */
+
+/* Start Style Header */
+header {
+  background-image: url("../image/header.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+}
+
+
+/* End Style Header */
+
+/* Start Style Section Trending */
+.trending {
+  padding-top: 100px;
+}
+
+.trending h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.trending .slider {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.trending .slider .item {
+  width: 30%;
+}
+
+.trending .slider .item img {
+  width: 100%;
+  height: 400px;
+  transition: all 0.6s;
+  display: block;
+}
+
+.trending .slider .item img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.trending .slider .item span {
+  font-size: 20px;
+  display: block;
+  margin-top: 30px;
+  color: #555;
+}
+
+.trending .slider .item button {
+  background-color: #0075ff;
+  padding: 8px;
+  color: #fff;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* End Style Section Trending */
+
+/* Start fashoin */
+.fashion {
+  display: flex;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.fashion .left {
+  width: 45%;
+}
+
+.fashion .left img {
+  width: 100%;
+}
+
+.fashion .right {
+  width: 55%;
+  margin-left: 100px;
+}
+
+.fashion .right h2 {
+  font-size: 50px;
+}
+
+.fashion .right p {
+  font-size: 20px;
+  color: #555;
+}
+
+/* End fashoin */
+
+/* Start Products */
+.product {
+  padding: 0;
+}
+
+.product h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.product .slider {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.product .slider .item {
+  width: 20%;
+}
+
+.product .slider .item img {
+  width: 100%;
+  height: 400px;
+  transition: all 0.6s;
+  display: block;
+}
+
+.product .slider .item img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.product .slider .item span {
+  font-size: 20px;
+  display: block;
+  margin-top: 30px;
+  color: #555;
+}
+
+.product .slider .item button {
+  background-color: #0075ff;
+  padding: 8px;
+  color: #fff;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* End Products */
+
+/* Start Sale */
+.sale {
+  background-image: url("../image/images\ \(9\).jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+
+.sale h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 400px;
+}
+
+/* End Sale */
+
+/* Start Testimonials */
+.testimonials {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.testimonials .photo {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.testimonials .photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.testimonials blockquote {
+  width: 80%;
+  margin: 40px auto;
+  line-height: 1.7;
+}
+
+.testimonials span {
+  display: block;
+  margin: 20px 0;
+  color: #555;
+}
+
+.testimonials ul {
+  text-align: center;
+  margin-left: -40px;
+  cursor: pointer;
+}
+
+.testimonials ul li {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #555;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 3px;
+}
+
+.testimonials ul li.active {
+  background-color: #555;
+}
+
+.testimonials ul li:hover {
+  background-color: #555;
+}
+
+/* End Testimonials */
+
+/* Start Blog */
+.blog {
+  padding: 0;
+}
+
+.blog > h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.blog .slider {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.blog .slider .item {
+  width: 33.3333%;
+  margin: 0px 20px;
+}
+
+.blog .slider .item a img {
+  width: 100%;
+  height: 300px;
+}
+
+.blog .slider .item a h2 {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.7;
+  text-transform: capitalize;
+  color: #000;
+  transition: all 1s;
+}
+
+.blog .slider .item a h2:hover {
+  color: rgb(222, 166, 222);
+  transform: scale(1.2);
+}
+
+.blog .slider .item span {
+  color: #555;
+  cursor: pointer;
+}
+
+/* End Blog */
+
+/* Start Cust */
+.cust {
+  background-image: url("../image/xbg_4.jpg.pagespeed.ic.l2DwvNHNxu.webp");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.cust .item span {
+  display: block;
+  margin: 20px 0;
+  font-size: 25px;
+}
+
+/* End Cust */
+
+/* Start Express */
+.express {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.express .ul-list {
+  display: flex;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.express .ul-list .list {
+  color: #555;
+}
+
+.express .ul-list .list .sq {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border: 1px solid;
+}
+
+.express .ul-list p {
+  line-height: 1.7;
+}
+
+/* End Express */
+
+/* Start Subcribe */
+.subscribe {
+  margin-bottom: 200px;
+}
+.subscribe h2 {
+  text-align: center;
+  padding-top: 200px;
+  line-height: 1.7;
+}
+
+.subscribe .form {
+  width: 360px;
+  margin: 60px auto;
+}
+
+.subscribe .form form input[type="text"] {
+  border-right: none;
+  margin-right: -4px;
+  padding: 20px;
+  border: 1ps solid #000;
+}
+
+.subscribe .form form input[type="submit"] {
+  border-left: none;
+  padding: 20px;
+  border: 1ps solid #000;
+  background-color: #000;
+  color: #fff;
+  margin: none;
+}
+
+/* End Subcribe */
+
+/* Start Footer */
+footer {
+  padding-top: 50px;
+}
+
+footer .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+footer .container .list {
+  width: 20%;
+}
+
+footer .container .list .heading h2 {
+  font-weight: 100;
+}
+
+
+footer .container .list .ul-list-one ul li  {
+  display: inline-block;
+  margin: 10px 69px 20px 0;
+}
+
+footer .container .list .ul-list-one ul li i {
+  font-size: 30px;
+}
+
+footer .container .list .ul-list-two ul li {
+  margin-bottom: 24px;
+  padding-top: 10px;
+}
+
+footer .container .list .ul-list-two ul li a {
+  color: #000;
+}
+
+footer .container .three {
+  margin-right: 30px;
+}
+
+footer .container .list .ul-list-three {
+  display: flex;
+}
+
+
+footer .container .list .ul-list-three ul li {
+  margin-bottom: 24px;
+  padding: 5px;
+}
+
+footer .container .list .ul-list-three ul li a {
+  color: #000;
+}
+
+
+footer .container .four {
+  width: 22%;
+}
+
+footer .container .four .ul-list-four ul li {
+  margin-bottom: 24px;
+  padding-top: 10px;
+}
+
+footer .container .four .ul-list-four ul li {
+  display: flex;
+}
+
+footer .container .four .ul-list-four ul li span {
+  display: block;
+  margin: 0 10px;
+}
+
+footer .container .four .ul-list-four ul li a {
+  color: #000;
+}
+
+footer .copyright {
+  text-align: center;
+  margin: 100px 0;
+}
+
+footer .copyright span {
+  color: #0075ff;
+}
+
+footer .copyright span {
+  color: #0075ff;
+}
+
+/* Start Footer */
+
+/* Finsh */
+
+/* Made By Mahmoud */
